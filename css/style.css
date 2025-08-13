@@ -1,0 +1,88 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/*topo*/
+header {
+  padding: 3vw 10vw 3vw 10vw;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+ display: flex;
+}
+header nav ul li {
+  margin: 10px 10px 10px 10px;
+}
+header nav ul li.atual a{
+  color: #fb2e86;
+}
+section.banner {
+  display: flex;
+  background-color: #f2f0ff;
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.banner div p.destaques {
+  color: #fb2e86;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+section.banner div h2 {
+  font-weight: bold;
+  font-size: 2.7rem;
+  margin: 0 0 2vw 0;
+}
+section.banner div p {
+  font-size: 0.7rem;
+  color: #8a8fb9;
+}
+section.banner div p button {
+  background-color: #fb2e86;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+section.banner div.imagens {
+  width: 20%;
+  margin: 0 0 0 30%;
+}
+section.produtos {
+  padding: 3vw 10vw;
+}
+section.produtos h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a0b5b;
+  margin: 3vw;
+}
+section.produtos ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section.produtos ul li{
+  width: 30%;
+}
+section.produtos ul li p {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+section.produtos ul li h3 {
+  padding: 10px;
+  color: #151875;
+}
