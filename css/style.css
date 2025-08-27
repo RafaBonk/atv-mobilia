@@ -25,7 +25,7 @@ header nav ul {
  display: flex;
 }
 header nav ul li {
-  margin: 10px 10px 10px 10px;
+  margin: 0px 16px 0px 16px;
 }
 header nav ul li.atual a{
   color: #fb2e86;
@@ -38,11 +38,11 @@ section.banner {
 section.banner div p.destaques {
   color: #fb2e86;
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 section.banner div h2 {
   font-weight: bold;
-  font-size: 2.7rem;
+  font-size: 2.9rem;
   margin: 0 0 2vw 0;
 }
 section.banner div p {
@@ -52,9 +52,8 @@ section.banner div p {
 section.banner div p button {
   background-color: #fb2e86;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 20px;
   font-size: 1.2rem;
-  color: white;
 }
 section.banner div.imagens {
   width: 20%;
@@ -85,4 +84,49 @@ section.produtos ul li p {
 section.produtos ul li h3 {
   padding: 10px;
   color: #151875;
+}
+section.invite {
+  padding: 8vw 10vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+  background-position: center;
+}
+section.invite h2 {
+  font-size: 1.8rem;
+  color: #151875;
+  font-weight: bold;
+}
+section.invite p button {
+  background-color: #fb2e86;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  color: white;
+  margin: 25px 0 0 0;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+  background-color: #EEEFFB;
+}
+footer div h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin:10px ;
+}
+footer div p {
+  padding: 10px 10px 10px 10px;
+  color: #8A8FB9;
+}
+footer div h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin:10px ;  
+}
+footer div ul li{
+  margin: 10px 10px 10px 10px;
+}
+footer div ul li a {
+  color: #8A8FB9;
 }
